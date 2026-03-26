@@ -1,0 +1,51 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "merchant-statement-puller"
+dynamic = ["version"]
+description = "ระบบดึงรายงานร้านค้า — Pull and aggregate merchant sales reports from food delivery platform emails for Thai tax filing"
+readme = "README.md"
+license = "LicenseRef-NonCommercial"
+license-files = ["LICENSE"]
+requires-python = ">=3.10"
+authors = [
+    { name = "Pongsiri Tonsuk", email = "pongsiri.tk@gmail.com" },
+]
+keywords = ["merchant", "tax", "thailand", "food-delivery", "grabfood", "shopeefood", "robinhood", "statement"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "Intended Audience :: End Users/Desktop",
+    "Natural Language :: Thai",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
+    "Topic :: Office/Business :: Financial :: Accounting",
+]
+dependencies = [
+    "openpyxl>=3.1.0",
+    "msoffcrypto-tool>=5.4.0",
+    "pdfplumber>=0.10.0",
+    "typer>=0.9.0",
+    "rich>=13.0.0",
+]
+
+[project.scripts]
+merchant-puller = "src.cli.app:main"
+
+[project.urls]
+Homepage = "https://github.com/PongsiriTK/merchant-statement-puller"
+Issues = "https://github.com/PongsiriTK/merchant-statement-puller/issues"
+
+[tool.setuptools.dynamic]
+version = {attr = "src.__version__.__version__"}
+
+[tool.setuptools.packages.find]
+include = ["src*"]

@@ -1,0 +1,27 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+
+# Downloaded statement files
+*.xlsx
+*.pdf
+
+# Merchant config files (contain App Passwords!)
+*_merchant*.md
+*merchant*.md
+food_delivery_service.md
+shopeefood_example_metadata.md
+
+# Environment / secrets
+.env
+.env.*
+
+# IDE / tools
+.claude/
+.DS_Store
+.idea/
+.vscode/
+*.swp

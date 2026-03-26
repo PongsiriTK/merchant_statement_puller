@@ -1,0 +1,60 @@
+Merchant Statement Puller — Non-Commercial License
+Copyright (c) 2025-2026 Pongsiri Tonsuk (PongsiriTK)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to use,
+copy, modify, merge, and distribute the Software for NON-COMMERCIAL PURPOSES
+ONLY, subject to the following conditions:
+
+1. NON-COMMERCIAL USE ONLY
+
+   The Software may be used freely for:
+   - Personal use
+   - Educational and academic purposes
+   - Non-profit organizations
+   - Open-source projects that are also non-commercial
+
+   The following uses are PROHIBITED without a separate commercial license:
+   - Selling, sublicensing, or offering the Software as a paid product or
+     service
+   - Using the Software as part of any revenue-generating service, SaaS, or
+     commercial product
+   - Integrating the Software into internal business tools or commercial
+     enterprise systems
+   - Offering consulting, support, or managed services built around the
+     Software for profit
+
+2. COMMERCIAL & ENTERPRISE LICENSING
+
+   Organizations or individuals who wish to use the Software for commercial
+   or enterprise purposes must obtain a separate commercial license.
+
+   To inquire about commercial licensing, please contact:
+
+       GitHub:  https://github.com/PongsiriTK
+       Email:   pongsiri.tk@gmail.com
+       Subject: [Commercial License] Merchant Statement Puller
+
+3. ATTRIBUTION
+
+   The above copyright notice and this permission notice shall be included
+   in all copies or substantial portions of the Software.
+
+4. MODIFICATIONS & DISTRIBUTION
+
+   You may modify and redistribute the Software under the same non-commercial
+   terms. Any derivative work must:
+   - Retain this license and copyright notice
+   - Clearly indicate that changes were made
+   - Not be used for commercial purposes unless a commercial license has
+     been obtained
+
+5. NO WARRANTY
+
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+   FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
+   THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+   LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+   FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+   DEALINGS IN THE SOFTWARE.
