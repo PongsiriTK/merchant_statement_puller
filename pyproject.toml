@@ -35,10 +35,12 @@ dependencies = [
     "pdfplumber>=0.10.0",
     "typer>=0.9.0",
     "rich>=13.0.0",
+    "streamlit>=1.30.0",
 ]
 
 [project.scripts]
 merchant-puller = "src.cli.app:main"
+merchant-puller-web = "src.web.run:main"
 
 [project.urls]
 Homepage = "https://github.com/PongsiriTK/merchant-statement-puller"

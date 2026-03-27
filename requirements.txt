@@ -3,3 +3,4 @@ msoffcrypto-tool>=5.4.0
 pdfplumber>=0.10.0
 typer>=0.9.0
 rich>=13.0.0
+streamlit>=1.30.0
